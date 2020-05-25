@@ -1,21 +1,16 @@
 {
-  "name": "tools",
+  "name": "types",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc-watch --onsuccess \"node dist/index.js\"",
-    "test": "npx jest --watchAll"
+    "start": "tsc-watch --onsuccess \"node dist/index.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^25.2.3",
-    "jest": "^24.7.1",
-    "ts-jest": "^24.0.2",
     "tsc-watch": "^2.1.2",
-    "tslint": "^5.16.0",
     "typescript": "^3.5.1"
   }
 }
